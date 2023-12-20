@@ -1,0 +1,22 @@
+/*Mobile*/
+tr,td,table{
+    border:2px solid black;
+    background-color: red;
+}
+th{font-family: 'Creepster', cursive; }
+/*Tablet View*/  
+@media(min-width:600px){
+    #logo{max-width: 100px;
+        max-height:120px ;} 
+    .table{grid-column: 1/-1;
+    }    
+    footer{grid-column: 1/-1;}   
+    }   
+    header{grid-column: 1/-1;}
+    table{width: 100%;}
+    /*Desktop View*/
+    @media(min-width:900px){
+        #logo{max-width: 170px;
+            max-height:160px;}    
+    }
+

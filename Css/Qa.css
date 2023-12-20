@@ -1,0 +1,26 @@
+/*Mobile*/
+h2{text-align:center ;} 
+h2{font-family: 'Creepster', cursive;}
+p{font-family: 'Rubik Wet Paint', cursive;}
+.q,.ans2{background-image: url("../images/fire.jpg"); background-size: 1000px 1000px;}
+h2{color: red;}
+.ans1,.ans3{background-image: url("../images/ah.jpg"); }
+p{color: white;}
+.q,.ans1,.ans2,.ans3{padding: 1em;}
+/*Tablet*/        
+@media(min-width:600px){
+ .con2{grid-column: 1/-1;
+     display: grid;
+     grid-template-columns: 50% 50%;
+}  
+ .q,.ans2{grid-column: 1/2;}
+ .ans1,.ans3{grid-column: 2/-1;}
+}
+ /*Desktop*/
+ @media(min-width:900px){
+    .con2{grid-template-columns:25% 25% 25% 25%;}
+    .q{grid-column: 1/2;}
+ .ans1{grid-column: 2/3;}
+ .ans2{grid-column: 3/4;}
+ .ans3{grid-column: 4/-1;}
+  }           

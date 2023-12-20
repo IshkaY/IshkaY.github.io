@@ -1,0 +1,96 @@
+#con{
+    width:90%;
+    margin:auto;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+}
+#main{align-items: center;
+        margin:auto;
+        max-width: 200px;
+}
+img{padding:0.06em;}
+#pic2 img{width: 150px;
+        height:200px ;}
+h1,p{color: red;}   
+p{font-size: 0.5em;} 
+#logo{max-width: 100px;
+max-height:120px ;}
+#gh{height: 120px;
+    width: 150px;}
+    .container{background-color: black;}
+    footer{font-family: 'Rubik Wet Paint', cursive;}
+/*Tablet View*/  
+@media(min-width:600px){
+    #con{
+        max-width:90%;
+        margin:auto;
+        text-align: center;
+        font-family: 'Creepster', cursive;
+        background-color: black;
+    }
+    .bt{
+        border-radius: 20px;
+        color:white;
+    }
+    #main{align-items: center;
+            margin:auto;
+            max-width: 400px;
+            padding-top: 1.6em;
+    }
+    img{padding:0.06em;}
+    #pic2 img{width:20%;
+            height:40%;}
+    h1,p{color: red;}   
+    p{font-size: 0.5em;} 
+    #logo{max-width: 100px;
+    max-height:120px ;}
+    .container{background-color: black;
+    display: block;}
+    nav{background-color: red;}
+    #pic2{max-width: 100%;
+    background-color: black;}
+    #gh{max-height: 220px;
+        max-width: 110px;}
+        header{padding-bottom: 0.8em;}
+    
+}    
+/*Desktop View*/  
+@media(min-width:900px){
+    #con{
+        max-width:90%;
+        margin:auto;
+        text-align: center;
+        font-family: 'Creepster', cursive;
+        background-color: black;
+    }
+    .bt{
+        border-radius: 20px;
+        color:white;
+        font-size: larger;
+    }
+    #main{align-items: center;
+            margin:auto;
+            max-width: 400px;
+            padding-top: 1.6em;
+    }
+    img{padding:0.06em;}
+    #pic2 img{width:20%;
+            height:40%;}
+    h1,p{color: red;}   
+    p{font-size: 2em;} 
+    #logo{max-width: 170px;
+    max-height:160px ;}
+    .container{background-color: black;
+    display: block;}
+    nav{background-color: red;}
+    #pic2{max-width: 100%;
+    background-color: black;
+    padding-bottom:2em ;}
+    #gh{max-height: 380px;
+        max-width: 250px;}
+    header{padding-bottom: 0.8em;}
+    #pic2 a{font-size: 2em;}
+   
+
+        
+}

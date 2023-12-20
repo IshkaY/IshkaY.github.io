@@ -1,0 +1,127 @@
+/*Mobile View*/
+.container{max-width:90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+text-align: center;}
+#logo{display:block; 
+    padding:1em;}    
+.intro p{
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 0.6em;
+}   
+.intro{padding-bottom: 0em;}
+header{
+    background-color: black;
+    text-align: center;
+    padding-bottom:1em ;
+    }
+.history1{font-size: 0.7em;
+        font-family: 'Rubik Wet Paint', cursive;
+        text-align: center;
+       background-color:black;
+       color: lightblue;
+    }
+.history1 p{font-size: 1.3em;
+}   
+.history1 h1{font-family: 'Creepster', cursive;
+             font-size: 3em;
+} 
+.sp{display: none;}
+.images{display: none;}
+.history2{font-size: 0.7em;
+        font-family: 'Rubik Wet Paint', cursive;
+        text-align: center;
+        background-color: black;
+       color:black;
+       color: lightblue;
+    }    
+    .history2 p{font-size: 1.3em;
+    }   
+    .history2 h1{font-family: 'Creepster', cursive;
+                 font-size: 3em;
+    }    
+    .su{display: none;}
+    #btn{font-family: 'Creepster', cursive;
+         color: lightblue;
+        font-size: 3em;
+        text-decoration: none;
+        background-color: black;
+        border: 1px solid lightblue;
+        padding: 0.2em;
+        border-radius: 20%;
+    }    
+    #btn:hover{color: khaki;} 
+    footer{font-family: 'Rubik Wet Paint', cursive;}
+/*Tablet View*/  
+@media(min-width:600px){
+    .container{max-width:90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    text-align: center;}
+    .history1{display: grid;
+             grid-template-columns:auto auto ;}
+    #logo{max-width: 100px;
+        max-height:120px ;}  
+    .intro p{
+        font-family: 'Rubik Wet Paint', cursive;
+        font-size: 0.6em;
+    }   
+    .intro{padding-bottom: 0em;}
+    header{
+        background-color: lightblue;
+        text-align: center;
+        padding-bottom:0em;
+        }
+    .history1{font-size: 0.7em;
+            font-family: 'Rubik Wet Paint', cursive;
+            text-align: center;
+           background-color:black;
+           color: lightblue;
+        }
+    .history1 p{font-size: 1.3em;
+    }   
+    .history1 h1{font-family: 'Creepster', cursive;
+                 font-size: 3em;
+    } 
+    .history2{display: grid;
+        grid-template-columns:auto auto ;}
+    .history2{font-size: 0.7em;
+        font-family: 'Rubik Wet Paint', cursive;
+        text-align: center;
+        background-color: black;
+       color:black;
+       color: lightblue;
+    }    
+    .history2 p{font-size: 1.3em;
+    }   
+    .history2 h1{font-family: 'Creepster', cursive;
+                 font-size: 3em;
+    }  
+   .history1{grid-column: 1/2;
+             padding-bottom:1em ;} 
+   .history2{grid-column: 2/-1;
+    padding-bottom:1em ;} 
+   .img1{grid-column: 1/2;
+   }   
+   .img2{grid-column:1/2;}
+   .p1{grid-column: 2/-1;}
+   .p2{grid-column: 2/-1;}
+   .sp, .su{display: block;}
+   .sp, .su, .j , .m{max-width: 100%;
+                    max-height: 200px;}
+}    
+/*Desktop View*/
+@media(min-width:900px){
+.img1, .img2{display: none; }   
+.images{display: block;
+background-color: black;
+grid-column: 1/-1;
+padding: 3em;}
+.spi, .jason, .sub, .my{max-width: 20%;}
+.p1, .p2{text-align:left ;}
+h1{text-decoration: underline;}
+#logo{max-width: 170px;
+    max-height:160px ;}
+}

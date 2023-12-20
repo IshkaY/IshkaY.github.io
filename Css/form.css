@@ -1,0 +1,32 @@
+/*Mobile*/
+body{
+    color:white;
+    }
+    #submit{
+    color:red ; 
+    font-family: 'Creepster', cursive; 
+    }
+    
+    form{
+    background-image: url("../images/fire.jpg");/*https://unsplash.com/photos/x3S1aGQNgro*/
+    border: 1px solid red; 
+    width: 100%;
+    text-align: center;
+    }
+    label{display: block;
+        text-align: center;}
+    h1{font-family: 'Creepster', cursive;}    
+    h3{font-family: 'Rubik Wet Paint', cursive;}
+ /*Tablet View*/  
+@media(min-width:600px){
+header{padding-bottom: 1em;}
+#logo{max-width: 100px;
+    max-height:120px ;}    
+}   
+/*Desktop View*/
+@media(min-width:900px){
+    #logo{max-width: 170px;
+        max-height:160px;}    
+}
+    
+    
